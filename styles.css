@@ -1,0 +1,52 @@
+/*
+## Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Slate 300: hsl(212, 45%, 89%)
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%)
+*/
+
+:root {
+--clr-primary-white: hsl(0, 0%, 100%);
+--clr-slate-300: hsl(212, 45%, 89%);
+--clr-slate-500: hsl(216, 15%, 48%);
+--clr-slate-900: hsl(218, 44%, 22%);
+
+--fw-regular-400: 400;
+--fw-bold-700: 700;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Outfit;
+    background-color: var(--clr-slate-300);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: var(--fw-bold-700);
+    color: var(--clr-slate-900);
+}
+
+p {
+    font-size: 2rem;
+    font-weight: var(--fw-regular-400);
+    color: var(--clr-slate-500);
+}
+
+.box {
+    width: fit-content;
+    padding: 2rem;
+    background: var(--clr-primary-white);
+    border-radius: 1rem;
+}
+
+.qr {
+    margin: auto;
+    justify-content: center;
+    border-radius: 1rem;
+}
